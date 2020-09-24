@@ -27,6 +27,8 @@ public class ConstructionTester
 
         //prints total and grand total
         System.out.println("Total: "+total);
-        System.out.println("Grand Total: "+construction.grandTotal(total));
+        System.out.print("Grand Total: "+construction.grandTotal(total));
+
+        in.close();
     }
 }
